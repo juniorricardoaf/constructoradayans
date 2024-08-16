@@ -1,0 +1,92 @@
+.blockquote-footer {
+  margin-top: -1rem !important;
+  margin-bottom: 1rem !important;
+  font-size: 0.875em !important;
+  color: #6c757d !important;
+}
+.blockquote-footer::before {
+  content: "— " !important;
+}
+
+.card > .card-header + .list-group,
+.card > .list-group + .card-footer {
+  border-top: 0 !important;
+}
+
+
+.card-footer {
+  padding: 0.5rem 1rem !important;
+  background-color: rgba(0, 0, 0, 0.03) !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px) !important;
+}
+
+@media (min-width: 576px) {
+  .card-group > .card:not(:last-child) .card-img-bottom,
+.card-group > .card:not(:last-child) .card-footer {
+    border-bottom-right-radius: 0 !important;
+  }
+  .card-group > .card:not(:first-child) .card-img-bottom,
+.card-group > .card:not(:first-child) .card-footer {
+    border-bottom-left-radius: 0 !important;
+  }
+}
+
+.modal-footer {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-shrink: 0 !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  padding: 0.75rem !important;
+  border-top: 1px solid #dee2e6 !important;
+  border-bottom-right-radius: calc(0.3rem - 1px) !important;
+  border-bottom-left-radius: calc(0.3rem - 1px) !important;
+}
+.modal-footer > * {
+  margin: 0.25rem !important;
+}
+
+.modal-fullscreen .modal-footer {
+  border-radius: 0 !important;
+}
+
+@media (max-width: 575.98px) {
+  .modal-fullscreen-sm-down .modal-footer {
+    border-radius: 0 !important;
+  }
+}
+@media (max-width: 767.98px) {
+
+  .modal-fullscreen-md-down .modal-footer {
+    border-radius: 0 !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .modal-fullscreen-lg-down .modal-footer {
+    border-radius: 0 !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  .modal-fullscreen-xl-down .modal-footer {
+    border-radius: 0 !important;
+  }
+}
+@media (max-width: 1399.98px) {
+  .modal-fullscreen-xxl-down .modal-footer {
+    border-radius: 0 !important;
+  }
+}
+footer.footer {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+.list-inline-item a{
+
+  height: 40px;
+  font-size: 1.25em !important; 
+
+}

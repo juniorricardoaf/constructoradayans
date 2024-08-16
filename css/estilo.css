@@ -1,0 +1,7 @@
+#map {
+	height: 400px;
+	width: 100%;
+}
+#mapmarker{
+	color: rgb(209, 3, 3) !important;
+}
